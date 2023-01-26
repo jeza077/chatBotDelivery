@@ -5,8 +5,8 @@ const {
 const MetaProvider = require('@bot-whatsapp/provider/meta')
 const MongoAdapter = require('@bot-whatsapp/database/mongo')
 
-// const { createBotDialog } = require('@bot-whatsapp/contexts/dialogflow')
-const { createBotDialog } = require('./packages/contexts/src/dialogflow/index')
+const { createBotDialog } = require('@bot-whatsapp/contexts/dialogflow')
+// const { createBotDialog } = require('./packages/contexts/src/dialogflow/index')
 
 
 /**
