@@ -1,12 +1,11 @@
 const {
-    createBot,
     createProvider,
-    createFlow,
-    addKeyword,
 } = require('@bot-whatsapp/bot')
 
 const MetaProvider = require('@bot-whatsapp/provider/meta')
 const MongoAdapter = require('@bot-whatsapp/database/mongo')
+
+const { createBotDialog } = require('@bot-whatsapp/contexts/dialogflow')
 
 /**
  * Declaramos las conexiones de Mongo
